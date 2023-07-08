@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #2976A6;
+    --cor2: #49728C;
+    --cor3: #77BDD9;
+    --cor4: #88DFF2;
+    --cor5: #0D0D0D;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: var(--cor4);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.3em;
+    font-variant: small-caps;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: var(--cor2);
+    height: 200px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 85vw;
+}
+
+main > h1#titulo {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+p#ementa {
+    color: darkred;
+    font-weight: bold;
+    padding-left: 50%;
+}
+
+p.inciso {
+    padding-left: 50px;
+}
+
+p.revogado {
+    color: red;
+}
+
+span.artigo {
+    background-color: var(--cor1);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+span.autoridade {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+span.paragrafo {
+    background-color: var(--cor1);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
