@@ -5,7 +5,7 @@ function mudaTela() {
         document.getElementById("logo").src = "imagens/logo-200.png";
         cabecalho.style.height = "210px";
     } else {
-        document.getElementById("logo").src = "imagens/logo-50.png";
+        document.getElementById("logo").src = "imagens/logo-75.png";
         cabecalho.style.height = "160px";
         document.getElementById("item3").innerHTML = ''
     }
